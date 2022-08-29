@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form method="get" action="tabletest.html">
+
+        <label for="firstName">Förnamn</label>
+        <input type="text" id="firstName" name="firstname" placeholder="skriv....">
+        <label for="lastName">Efternamn</label>
+        <input type="text" id="lastName" name="lastname" disabled>
+        <label for="passWord">password</label>
+        <input type="password" id="passWord" name="password" required="required">
+
+        <div>
+            <label for="e-mail">E-mail</label>
+            <input type="email" name="e-mail" id="e-mail">
+            <label for="e-mail2">Repeat E-mail</label>
+            <input type="email" autocomplete="off" id="e-mail2">
+        </div>
+
+        <div>
+            <input type="radio" id="schoolChoice1" name="school" value="grundskola">
+            <label for="schoolChoice1">Grundskola</label>
+            <input type="radio" id="schoolChoice2" name="school" value="gynmasiet">
+            <label for="schoolChoice2">Gynmasie</label>
+            <input type="radio" id="schoolChoice3" name="school" value="högskola">
+            <label for="schoolChoice3">högskola</label>
+        </div>
+        
+
+        <button type="menu">Post</button>
+    </form>
+
+</body>
+
+</html>
