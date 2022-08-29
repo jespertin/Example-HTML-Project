@@ -1,0 +1,33 @@
+
+body{
+    background-color: violet;
+}
+
+
+@media screen and (max-width: 400px) {
+    .test-para-one{
+        color: blue;
+    }
+    
+}
+
+@media screen and (min-width: 300px) {
+    .test-para-two{
+        color: yellow;
+    }
+    
+}
+
+@media (max-width: 400px) and (max-height: 400px) {
+    p{
+        font-size: 5cms;
+    }
+    
+}
+
+@media screen and (orientation: landscape) {
+    body{
+        background-color: burlywood;
+    }
+    
+}
