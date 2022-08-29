@@ -1,0 +1,59 @@
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  header {
+    background: purple;
+    height: 100px;
+    position: sticky;
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+
+  article {
+    
+    padding: 10px;
+    margin: 10px;
+    margin-top: 100px;
+    background: aqua;
+    width: 10%;
+  }
+
+  #blabla{
+    height: 1000px;
+    border: solid;
+  }
+
+  #article-one{
+  }
+
+  #article-two{
+  }
+
+  #article-three{
+    
+  }
+
+  #article-four{
+    
+  }
+
+  #article-five{
+
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
